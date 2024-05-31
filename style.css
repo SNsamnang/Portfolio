@@ -1,0 +1,208 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.containner {
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(76, 20, 92));
+}
+.sub-containner {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: fixed;
+  background-color: rgb(7, 2, 8);
+}
+.navbar1 {
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.space-nav {
+  width: 100%;
+  height: 123px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.menu {
+  text-align: center;
+  width: 80px;
+  transition: all 0.5s;
+}
+.menu:hover {
+  color: blueviolet;
+}
+#line1 {
+  width: 0%;
+  height: 2px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+/* #line2 {
+  width: 0%;
+  height: 2px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  transition: width 0.5s;
+} */
+#line3 {
+  width: 0%;
+  height: 2px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  transition: width 0.5s;
+}
+#line4 {
+  width: 0%;
+  height: 2px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  transition: width 0.5s;
+}
+#line5 {
+  width: 0%;
+  height: 2px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  transition: width 0.5s;
+}
+.left-containner {
+  width: 60%;
+  box-shadow: 0px 0px 10px 2px rgb(157, 1, 171);
+  color: white;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px 2% 40px 2%;
+  box-sizing: border-box;
+}
+.left-containner h1 {
+  color: transparent;
+  background-image: linear-gradient(to right, white, blueviolet);
+  -webkit-background-clip: text;
+}
+.left-containner p {
+  width: 80%;
+  margin-left: 10%;
+}
+.right-picture {
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.right-pic-hover {
+  rotate: 10deg;
+  box-shadow: 0px 0px 15px 2px rgb(201, 201, 219);
+}
+.right-picture img {
+  width: 40%;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px 2px rgb(120, 120, 255);
+  transition: all 0.8s;
+}
+.text-img {
+  width: 60%;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  text-align: center;
+  float: left;
+  padding-bottom: 10%;
+}
+.text-img h2 {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, white, rgb(132, 0, 255));
+}
+.copyright {
+  color: rgb(205, 152, 255);
+  text-align: center;
+  padding: 0px 0px 25px 0px;
+  margin: 0px;
+  font-size: 12px;
+}
+.page-cotainner {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.text-title-page {
+  padding: 0;
+  color: transparent;
+  background-image: linear-gradient(to right, white, blueviolet);
+  -webkit-background-clip: text;
+  box-sizing: border-box;
+}
+.contact-navbar {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+.card-skills {
+  width: 22.5%;
+  background-color: white;
+  margin-left: 2%;
+  float: left;
+  margin-top: 5%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 2px rgb(120, 120, 255);
+}
+.card-skills img{
+  width: 100%;
+  border-radius: 10px;
+}
+.cotainner-icon-contact{
+  width: 60%;
+  margin: auto;
+}
+p a{
+  color: white;
+}
+.icon-fb{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTcOJn4jFXhKJmuq1BJ1dMZ8hwMVQ7fP5Oww&usqp=CAU");
+  background-size: cover
+}
+.icon-tele{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 8px;
+  background-image: url("https://static-00.iconduck.com/assets.00/telegram-icon-2048x2048-qq8ggh79.png");
+  background-size: cover
+}
+.icon-mail{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 8px;
+  background-image: url("https://i.pinimg.com/originals/02/c8/60/02c86036601e66e461c7e4ec6778d34b.jpg");
+  background-size: cover
+}
+
