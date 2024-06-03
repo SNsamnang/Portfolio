@@ -63,17 +63,17 @@ function handle() {
 }
 mypic.addEventListener("click", handle);
 
-const containner_img_width = document.getElementById("containner-img-width");
-const text_img = document.querySelector(".text-img");
-const widthbody = document.body.offsetWidth;
+// const containner_img_width = document.getElementById("containner-img-width");
+// const text_img = document.querySelector(".text-img");
+// const widthbody = document.body.offsetWidth;
 
-if (widthbody < "1000") {
-  text_img.style.width = "100%";
-  mypic.style.width = "100%";
-} else {
-  text_img.style.width = "400px";
-  mypic.style.width = "300px";
-}
+// if (widthbody < "1000") {
+//   text_img.style.width = "100%";
+//   mypic.style.width = "100%";
+// } else {
+//   text_img.style.width = "400px";
+//   mypic.style.width = "300px";
+// }
 
 let sub_job = document.getElementById("sub-job");
 const alljob = ["Marketing", "UX UI Designer", "Content Creator"];
