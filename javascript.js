@@ -9,14 +9,16 @@ const line3 = document.getElementById("line3");
 const line4 = document.getElementById("line4");
 const line5 = document.getElementById("line5");
 
-// work.addEventListener("mousedown", () => {
-//   line2.style.width = "100%";
-//   work.style.color = "blueviolet";
-// });
-// work.addEventListener("mouseout", () => {
-//   line2.style.width = "0%";
-//   work.style.color = "white";
-// });
+service.addEventListener("mousedown", () => {
+  line1.style.width = "100%";
+  service.style.color = "blueviolet";
+  line3.style.width = "0%";
+  line4.style.width = "0%";
+  line5.style.width = "0%";
+  resume.style.color = "white";
+  skill.style.color = "white";
+  contact.style.color = "white";
+});
 
 resume.addEventListener("mousedown", () => {
   line3.style.width = "100%";
