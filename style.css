@@ -48,6 +48,9 @@ a {
 .menu:hover {
   color: blueviolet;
 }
+.meenu #service {
+  color: blueviolet;
+}
 #line1 {
   width: 100%;
   height: 2px;
